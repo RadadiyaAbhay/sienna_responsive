@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    padding-right: 16px ;
+    padding-left: 16px ;
+    margin: 0 auto;
+    width: 1140px;
+}
+.row{
+    margin-left: -16px;
+    margin-right: -16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-1{
+    width: 8.33%;
+}
+.w-2{
+    width: 16.66%;
+}
+.w-3{
+    width: 25%;
+}
+.w-4{
+    width: 33.33%;
+}
+.w-5{
+    width: 41.33%;
+}
+.w-6{
+    width: 50%;
+}
+.w-7{
+    width: 58.33%;
+}
+.w-8{
+    width: 66.66%;
+}
+.w-9{
+    width: 75%;
+}
+.w-10{
+    width: 83.33%;
+}
+.w-11{
+    width: 91.66%;
+}
+.w-12{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.position-abs{
+    position: absolute;
+}
+
+.flex-dire-colm{
+    flex-direction: column;
+}
+.justify-con-cen{
+    justify-content: center
+}
+.align-items-cen{
+    align-items: center;
+}
+
+/* body */
+body{
+    background-color: yellowgreen;
+}
+.fix-1{
+    position: fixed;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    right:0%;
+    top: 200px;
+}
+.fix-2{
+    position: fixed;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    right:0%;
+    top: 260px;
+}
+.fix-3{
+    position: fixed;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    right:3%;
+    top: 88%;
+}
+/* header */
+header{
+    background-color: black;
+    height: 89px;
+}
+.logo{
+    background-color: aqua;
+    height: 89px;
+}
+nav{
+    background-color: brown;
+    height: 89px;
+}
+.btn{
+    background-color: blue;
+    height: 89px;
+}
+/* banner */
+/* b1 */
+.b1{
+    background-color: blanchedalmond;
+    height: 600px;
+}
+/* b2 */
+.b2{
+    background-color: rgb(60, 168, 20);
+    height: 600px;
+}
+.b2 .b2-con{
+    background-color: rgb(30, 105, 128);
+    height: 200px;   
+}
+.b2 .b2-img-1{
+    background-color: blueviolet;
+    height: 200px;
+}
+.b2 .b2-img-2{
+    background-color: rgb(40, 39, 41);
+    height: 200px;
+}
+.b2 .b2-img-3{
+    background-color: rgb(145, 116, 172);
+    height: 200px;
+}
+.b2 .b2-img-con-1{
+    background-color: rgb(222, 31, 66);
+    height: 200px;
+}
+.b2 .b2-img-con-2{
+    background-color: rgb(214, 30, 119);
+    height: 200px;
+}
+.b2 .b2-img-con-3{
+    background-color: rgb(136, 41, 210);
+    height: 200px;
+}
+.b2 .b2-img-1-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+.b2 .b2-img-2-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+.b2 .b2-img-3-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+.b2 .b2-img-con-1-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+.b2 .b2-img-con-2-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+.b2 .b2-img-con-3-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+/* b3 */
+.b3{
+    height:600px ;
+    background-color: chocolate;
+}
+.b3-con-img{
+    height:600px ;
+    background-color:slateblue ;
+}
+.b3-img{
+    height: 600px;
+    background-color: firebrick ;
+}
+/* b4 */
+.b4{
+    height: 600px;
+    background-color: blue;
+}
+.b4-con-1{
+    height: 200px;
+    background-color: cornflowerblue;
+}
+.b4-con-2{
+    height: 200px;
+    background-color: rgb(214, 221, 233);
+}
+.b4-con-3{
+    height: 200px;
+    background-color: rgb(6, 76, 204);
+}
+.b4-con-4{
+    height: 200px;
+    background-color: rgb(153, 161, 177);
+}
+.b4-con-5{
+    height: 200px;
+    background-color: rgb(5, 8, 14);
+}
+.b4-con-6{
+    height: 200px;
+    background-color: rgb(165, 186, 224);
+}
+.b4-con-7{
+    height: 200px;
+    background-color: rgb(94, 14, 66);
+}
+.b4-con-8{
+    height: 200px;
+    background-color: rgb(0, 3, 8);
+}
+.b4-con-9{
+    height: 200px;
+    background-color: rgb(98, 133, 198);
+}
+/* b5 */
+.b5{
+    background-color: rgb(60, 168, 20);
+    height: 600px;
+}
+.b5 .b5-con{
+    background-color: rgb(30, 105, 128);
+    height: 200px;   
+}
+.b5 .b5-img-1{
+    background-color: blueviolet;
+    height: 400px;
+}
+.b5 .b5-img-2{
+    background-color: rgb(40, 39, 41);
+    height: 400px;
+}
+.b5 .b5-img-3{
+    background-color: rgb(145, 116, 172);
+    height: 400px;
+}
+.b5 .b5-img-1-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+.b5 .b5-img-2-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+.b5 .b5-img-3-2{
+    background-color: rgb(209, 145, 15);
+    height: 90%;
+    width: 90%;
+}
+
+/* b6 */
+.b6{
+    background-color: blanchedalmond;
+    height: 600px;
+}
+.b6-con{
+    background-color: rgb(32, 32, 31);
+    height: 600px;
+    
+}
+/* b7 */
+.b7{
+    background-color: blue;
+    height: 700px;
+}
+.b7-form{
+    height: 500px;
+    background-color: blueviolet;
+}
+.b7-time{
+    height: 500px;
+    background-color: rgb(169, 142, 195);
+}
+.b7-logo{
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+/* footer */
+.foot{
+    background-color: rgb(68, 74, 61);
+    height: 700px;
+    
+}
+.foot-con{
+    height: 500px;
+    background-color: rgb(58, 4, 4);
+}
+.foot-news{
+    height: 500px;
+    background-color: rgba(218, 24, 24, 0.69);
+}
+.foot-img{
+    height: 500px;
+    background-color: rgb(199, 180, 180);
+}
+.foot-contact{
+    height: 500px;
+    background-color: rgb(40, 131, 154);
+}
+.foot-bot-con{
+    height: 200px;
+    background-color: blue;
+
+}
+.foot-icon{
+    height: 200px;
+    background-color: rgb(95, 195, 23);
+    
+}
